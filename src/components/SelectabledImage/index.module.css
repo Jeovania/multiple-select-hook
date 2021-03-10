@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  background: var(--secondary-color);
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.checked {
+  background: var(--secondary-accent-color);
+}
+
+.checked::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}

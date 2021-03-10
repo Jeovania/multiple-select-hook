@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #ffa0a3;
+  --primary-accent-color: #db767a;
+  --secondary-color: #ccd6e3;
+  --secondary-accent-color: #afc3db;
+  --black: #333;
+  --gray-dark: #444;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

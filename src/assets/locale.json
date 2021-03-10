@@ -1,0 +1,9 @@
+{
+  "title": "Selectable Gallery",
+  "subtitle": "selected",
+  "select": "Select all",
+  "deselect": "Deselect all",
+  "download": "Download",
+  "download_success_message": "See your developer console",
+  "download_error_message": "Select some photos to download"
+}
