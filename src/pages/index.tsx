@@ -25,7 +25,7 @@ const Page: FC = () => {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <section>
+        <section className={styles.titleWrapper}>
           <h1 className={styles.title}>{locale.title}</h1>
           {
             <h3 className={styles.subtitle}>{`${MultipleSelect.getSize()} ${

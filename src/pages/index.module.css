@@ -1,15 +1,18 @@
 .page {
-  padding: 40px 30px;
+  padding: 40px 16px;
   max-width: 1020px;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 30px;
+}
+
+.titleWrapper {
+  margin-bottom: 24px;
 }
 
 .buttonsWrapper {
@@ -50,5 +53,36 @@
 .gallery {
   display: grid;
   grid-gap: 16px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (min-width: 600px) {
+  .page {
+    padding: 40px 30px;
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .titleWrapper {
+    margin-bottom: 0;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
